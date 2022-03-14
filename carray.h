@@ -1,6 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+/*
+Move this file the path /usr/include/c++/9/ if you using in Linux
+To use without moving just include by follow line
+#include<path_of_this_file/carry.h>
+*/
+
 int int_insert(int arr[],int size,int element,int capicity, int index,int *ar){
     if(size>=capicity){
         printf("overflow\n");
