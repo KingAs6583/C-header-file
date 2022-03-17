@@ -35,6 +35,7 @@ release() : this use to release or free the memory of list
 print() : it is use to display elements of LinkList
 *****************************************************************************************
 Example
+
 #include </path/Array.h>
 #include </path/LinkList.h>
 #include <iostream>
@@ -44,43 +45,53 @@ using namesp std;
 
 template<class T>
 void Array_helper(T ar[],int size,T e){
-    int s=length(ar);
-    traverser(ar,s);
-    cout<<s<<endl;
-    insert(ar,s,e,size,4,ar);
-    traverser(ar,s+1);
-    deletion(ar,s,4,ar);
-    sort(ar,0,s,ar);
-    traverser(ar,s);
-    cout<<"stop...\n";
-}
+  
+  int s=length(ar);
+  
+  traverser(ar,s);
+  cout<<s<<endl;
+  insert(ar,s,e,size,4,ar);
+  traverser(ar,s+1);
+  deletion(ar,s,4,ar);
+  sort(ar,0,s,ar);
+  traverser(ar,s);
+  cout<<"stop...\n";
+
+  }
 
 void Array_Test(){
-    cout<<"Starting \n";
-    int iar[10] = {1,2,3,4,5};
-    Array_helper(iar,10,6);
-    
-    char car[10] = {'a','c','b','e','d'};
-    Array_helper(car,10,'s');
 
-    double dar[10] = {1.2,3.5,2.5,4.8,5.9};
-    Array_helper(dar,10,6.6);
-}
+  cout<<"Starting \n";
+  int iar[10] = {1,2,3,4,5};
+  Array_helper(iar,10,6);
+    
+  char car[10] = {'a','c','b','e','d'};
+  Array_helper(car,10,'s');
+
+  double dar[10] = {1.2,3.5,2.5,4.8,5.9};
+  
+  Array_helper(dar,10,6.6);
+
+  }
 
 void LinkList_test(){
-    LinkList<int> *list = new LinkList<int>();
-    for(int i=1;i<11;i++)
+  
+  LinkList<int> *list = new LinkList<int>();
+    
+  for(int i=1;i<11;i++)
     list->add(i+1);
-    list->print();
-    list->remove(5);
-    list->print();
-    list->insert(5-1,4);
-    list->print();
-    int t = list->length();
-    cout<<t<<endl;
-    list->release();
-    delete(list);
-}
+  
+  list->print();
+  list->remove(5);
+  list->print();
+  list->insert(5-1,4);
+  list->print();
+  int t = list->length();
+  cout<<t<<endl;
+  list->release();
+  delete(list);
+  
+  }
 
 int main(){
   
