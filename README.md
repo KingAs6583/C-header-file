@@ -1,10 +1,10 @@
 # C-header-file
 This Array.h and carray.h is use to perform operations on arrays of any type in c language
-The operation as follow
-1.Traversing
-2.Inseration
-3.Deletion
-4.Sorting
+## The operation as follow
+1. **Traversing**
+2. **Inseration**
+3. **Deletion**
+4. **Sorting**
 **************************************************************************************
 Insert(array, length_of_array, element_to_insert, capicity_of_array, position, array)
 
@@ -34,6 +34,7 @@ get(index) : it is use to get data of particular index
 release() : this use to release or free the memory of list
 print() : it is use to display elements of LinkList
 *****************************************************************************************
+```
 Example
 
 #include </path/Array.h>
@@ -104,5 +105,5 @@ int main(){
   return 0;
   
 }
-  
-  
+    
+```
