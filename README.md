@@ -34,7 +34,7 @@ The File LinkList.h this file is use to perform operation on Linklist in C++ Lan
 * release() : this use to release or free the memory of list
 * print() : it is use to display elements of LinkList
 *****************************************************************************************
-```
+```c++
 Example
 
 #include </path/Array.h>
