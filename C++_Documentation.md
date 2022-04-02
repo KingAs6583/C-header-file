@@ -32,7 +32,7 @@ class_Name object_Name,..,N;
 2. **Access member using object**  
 object_Name.Member_Name;
 
-```
+```c++
 #include<iostream>
 using namespace std;
 class Employee {
@@ -104,7 +104,7 @@ Function_Name(Argument);
 
 * It is recommented to use it when code is less
 
-```
+```c++
 #include <iostream>
 #include <stdlib.h>
 
@@ -202,7 +202,7 @@ executed when ever object is free or delete
 * It can be virtual and it can't be overload
 * It can't be inherited but it can call by derive class
 
-```
+```c++
 
 #include <iostream>
 using namespace std;
@@ -255,7 +255,7 @@ Return_Type operator operator_symbol (parameterise){//code}
 
 * it can be overload with friend function
 
-```
+```c++
 #include <iostream>
 using namespace std;
 
@@ -307,7 +307,7 @@ example virtual function
 * **pure virtual function** : A Virtual function who prototype is assign with zero  
 * **virtual function** : A function prefix with keyword virtual
 
-```
+```c++
 #include <iostream>
 using namespace std;
 class Base {
@@ -359,7 +359,7 @@ int main(){
 * **Friend function** : it is function which can access private member of class it is prefix by keyword friend
 it is an non member of a class
 
-```
+```c++
 
 include <iostream>
 using namespace std;
@@ -406,7 +406,7 @@ int main(){
 * **throw** : it is use to throw exception
 * **catch** : it is use to catch exception
 
-```
+```c++
 #include <iostream>
 using namespace std;
 template<class T> //declaring function template with arg of T
@@ -477,7 +477,7 @@ obj.class_Name::function();
 
 ### **Note : Refer about it in Google**
 
-```
+```c++
 #include <iostream>
 using namespace std;
 
