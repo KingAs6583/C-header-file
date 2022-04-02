@@ -6,33 +6,33 @@ This Array.h and carray.h is use to perform operations on arrays of any type in 
 3. **Deletion**
 4. **Sorting**
 **************************************************************************************
-Insert(array, length_of_array, element_to_insert, capicity_of_array, position, array)
+Insert(array, length_of_array, element_to_insert, capicity_of_array, position, array). 
 
-Deletion(array, length, position, array)
+Deletion(array, length, position, array). 
 
-Traverser(array, length)
+Traverser(array, length). 
 
-sort(array, length, array)
+sort(array, length, array). 
 
 above functions use to take above parameters
 ****************************************************************************************
 The File LinkList.h this file is use to perform operation on Linklist in C++ Language
-1.add
-2.insert
-3.remove
-4.length
-5.get
-6.release
-7.Append
-8.print
+1.add. 
+2.insert. 
+3.remove. 
+4.length. 
+5.get. 
+6.release. 
+7.Append. 
+8.print. 
 *****************************************************************************************
-Add(data) : this function is use add element into LinkList
-insert(position , data) : this is use to insert element at position 
-remove(position) : it is use delete element at position
-length() : this use to return length or size of LinkList
-get(index) : it is use to get data of particular index
-release() : this use to release or free the memory of list
-print() : it is use to display elements of LinkList
+* Add(data) : this function is use add element into LinkList
+* insert(position , data) : this is use to insert element at position 
+* remove(position) : it is use delete element at position
+* length() : this use to return length or size of LinkList
+* get(index) : it is use to get data of particular index
+* release() : this use to release or free the memory of list
+* print() : it is use to display elements of LinkList
 *****************************************************************************************
 ```
 Example
